@@ -168,12 +168,6 @@ This mode requires its own map (`arucoMap.yaml`) and a different world.
 * **Launch File Redundancy:** You have multiple files launching parts of the Nav2 stack (`mylaunch.py`, `arucolaunch.py`, `nav2_bringup_launch.py`). A more advanced setup would involve a single, modular `bringup.launch.py` file that accepts arguments (like `world_name`, `map_name`, `run_slam`, etc.) to avoid code duplication.
 * **TF Prefix:** The `dynamic_carrot_broadcaster.py` script looks for `husky_robot_model__base_link`. The `__` double underscore implies a namespace. This is correct, but be aware that your TF frames are namespaced, which is important for multi-robot systems.
 
-## .gitignore
 
-To keep your repository clean, create a `.gitignore` file in the root of `task1_ws` and add the following lines to ignore build, install, and log files:
-
-```
-/build/
-/install/
 /log/
 ```
