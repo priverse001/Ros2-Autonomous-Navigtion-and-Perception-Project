@@ -1,0 +1,35 @@
+{
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/priverse/task1_ws/install/huskyPackage/lib/python3.10/site-packages",
+        "/home/priverse/ros2_ws/install/multibot/lib/python3.10/site-packages",
+        "/home/priverse/ros2_ws/install/multibot_interfaces/local/lib/python3.10/dist-packages",
+        "/home/priverse/turtlebot3_ws/build/turtlebot3_teleop",
+        "/home/priverse/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/priverse/turtlebot3_ws/build/turtlebot3_example",
+        "/home/priverse/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/priverse/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/priverse/turtlebot3_ws/build/multibot",
+        "/home/priverse/turtlebot3_ws/install/multibot/lib/python3.10/site-packages",
+        "/home/priverse/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/home/priverse/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/priverse/task1_ws/install/huskyPackage/lib/python3.10/site-packages",
+        "/home/priverse/ros2_ws/install/multibot/lib/python3.10/site-packages",
+        "/home/priverse/ros2_ws/install/multibot_interfaces/local/lib/python3.10/dist-packages",
+        "/home/priverse/turtlebot3_ws/build/turtlebot3_teleop",
+        "/home/priverse/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/priverse/turtlebot3_ws/build/turtlebot3_example",
+        "/home/priverse/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/priverse/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/priverse/turtlebot3_ws/build/multibot",
+        "/home/priverse/turtlebot3_ws/install/multibot/lib/python3.10/site-packages",
+        "/home/priverse/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/home/priverse/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
