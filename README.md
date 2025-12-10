@@ -162,12 +162,6 @@ This mode requires its own map (`arucoMap.yaml`) and a different world.
 
 ---
 
-## 💡 Project Notes & Improvements
-
-* **Absolute Paths:** The files `nav2_bringup_launch.py` and `nav2_bringup_launch_aruco.py` use an **absolute path** (`/home/priverse/...`) to the map file. This is not portable. For a truly robust project, you should modify these files to use `get_package_share_directory('camp')` to find the map file, just as your other launch files do.
-* **Launch File Redundancy:** You have multiple files launching parts of the Nav2 stack (`mylaunch.py`, `arucolaunch.py`, `nav2_bringup_launch.py`). A more advanced setup would involve a single, modular `bringup.launch.py` file that accepts arguments (like `world_name`, `map_name`, `run_slam`, etc.) to avoid code duplication.
-* **TF Prefix:** The `dynamic_carrot_broadcaster.py` script looks for `husky_robot_model__base_link`. The `__` double underscore implies a namespace. This is correct, but be aware that your TF frames are namespaced, which is important for multi-robot systems.
-
 
 /log/
 ```
